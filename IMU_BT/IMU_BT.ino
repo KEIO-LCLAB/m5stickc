@@ -36,7 +36,6 @@ void setup() {
 void loop() {
     M5.update();
     if (M5.BtnA.wasPressed()) LCDShow = !LCDShow;
-    if(M5.BtnB.wasPressed()) esp_restart();
 
     M5.IMU.getAccelData(&accX, &accY, &accZ);
     M5.IMU.getGyroData(&gyroX, &gyroY, &gyroZ);

@@ -18,6 +18,11 @@ m5stickcのボタンを押すとWebhook経由でSlackにメッセージを投稿
 WiFi環境・Slack側でのWebhookアプリの設定が必要です．  
 [Slack Webhook の参考](https://slack.com/intl/ja-jp/help/articles/115005265063)
 
-## BT_IMU
+## IMU_BT
 
 M5StickCで測定した加速度，角速度，姿勢方位を Bluetooth Serial 経由でパソコンに送り，CSVファイルとして書き出すためのプログラムのセットです．
+
+## IMU_UDP
+
+M5StickCで測定した加速度，角速度，姿勢方位を WiFi(UDP通信) 経由でパソコンに送り，CSVファイルとして書き出すためのプログラムのセットです．
+Bluetoothより圧倒的に安定しています．
